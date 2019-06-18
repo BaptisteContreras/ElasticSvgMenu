@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+npm i elastic-svg-menu
 ```
 
 ### Credits 
