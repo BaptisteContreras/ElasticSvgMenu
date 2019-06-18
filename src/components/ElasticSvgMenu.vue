@@ -150,10 +150,8 @@
             },
             initSlot: function () {
                 let slots = this.$refs.ulElem.childNodes;
-                let delay = 0.04;
                 for (let i = 0; i < slots.length; i++) {
-                    slots[i].firstChild.style.transitionDelay = delay + "s";
-                    delay += 0.04;
+                    slots[i].firstChild.style.transitionDelay = ((i+1)*0.04) + "s";
                 }
             },
 
